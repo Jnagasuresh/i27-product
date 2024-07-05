@@ -1,0 +1,9 @@
+name: i27-product
+fullname: i27-product-stg
+replicas:
+  default: 1
+image:
+  name: i27k8s10/product
+  tag: random
+namespace: cart-stg-ns
+targetport: 8132
